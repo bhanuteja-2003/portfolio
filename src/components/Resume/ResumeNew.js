@@ -9,7 +9,7 @@ import pdf from "../../Assets/BhanuResume.pdf";
 import Particle from "../Particle";
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 const resumeLink =
-  "https://raw.githubusercontent.com/bhanuteja-2003/Resume/main/BhanuResume.pdf";
+  "https://raw.githubusercontent.com/bhanuteja-2003/portfolio/main/src/Assets/BhanuResume.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
