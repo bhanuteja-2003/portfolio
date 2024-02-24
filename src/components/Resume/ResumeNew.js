@@ -5,11 +5,11 @@ import { AiOutlineDownload } from "react-icons/ai";
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 import 'react-pdf/dist/esm/Page/TextLayer.css';
 import { Document, Page, pdfjs } from 'react-pdf/dist/esm/entry.webpack5';
-import pdf from "../../Assets/BhanuResume.pdf";
+import pdf from "../../Assets/BhanuTeja_S20200010183.pdf";
 import Particle from "../Particle";
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.js`;
 const resumeLink =
-  "https://raw.githubusercontent.com/bhanuteja-2003/portfolio/main/src/Assets/BhanuResume.pdf";
+  "https://raw.githubusercontent.com/bhanuteja-2003/portfolio/main/src/Assets/BhanuTeja_S20200010183.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
