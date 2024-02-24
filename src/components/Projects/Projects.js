@@ -20,7 +20,7 @@ function Projects() {
               isBlog={false}
               title="SwingBar"
               description="Developed SwingBar,a dynamic website using HTML, CSS, and JavaScript.
-              Utilized CDNJS GSAP for smooth animations and improved user engagement.
+              Utilized GSAP for smooth animations and improved user engagement.
               Ensured efficient code structure for readability and scalability.
               Crafted captivating animations to enhance the user experience"
               ghLink="https://github.com/bhanuteja-2003/SwingBar"
@@ -30,16 +30,42 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="OpticBloom"
-              description="This project is currently in development.It is a social media web application for photography freaks, built with the MERN stack. Users can create accounts, share posts, connect with others, and their best captured moments . Features include a liking posts, dark mode, and commenting capabilities."
+              title="TickTrack"
+              description="Developed end-to-end backend infrastructure for a feature-rich todo list application.
+              Implemented secure user authentication via cookies, bolstering system integrity.
+              Employed JWT tokenization to encrypt and protect sensitive data during transmission.
+              Utilized Bcrypt hashing for secure storage and protection of user passwords.
+              Deployed the system on Render, ensuring seamless and reliable hosting for enhanced accessibility and performance.
+              "
+              ghLink="https://github.com/bhanuteja-2003/BackendLearning/tree/main/TodoBackend"
+              
             />
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               isBlog={false}
-              title="ElectroChat"
-              description="Developed an innovation aimed at assisting users with their queries related to electronic gadgets.Leveraged NLTK (Natural Language Toolkit) and Python to build the chatbot’s functionality and enhance its natural language processing capabilities.Guided 100+ users on knowing insights about the electronic gadgets."
-              ghLink="https://github.com/bhanuteja-2003/ElectroChat"
+              title="MarkDone"
+              description="Spearheaded the development of a feature-rich to-do list application using React.
+              Implemented advanced React Hooks like useState and useEffect for efficient state management and component lifecycle handling.
+              Utilized localStorage to persist data, eliminating the need for resetting to default state upon project reload.
+              Ensured code cleanliness and maintainability, reflecting a dedication to high-quality development practices.
+              "
+              ghLink="https://github.com/bhanuteja-2003/To-Do_Project"
+              demoLink="https://bhanuteja-2003.github.io/To-Do_Project/"
+
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              isBlog={false}
+              title="Boundless"
+              description="Developed a dynamic React JS eCommerce site with clean code and UI/UX focus.
+              Designed an engaging Home page with trending products and user-friendly features.
+              Created sleek category-specific product pages with detailed descriptions.
+              "
+              ghLink="https://github.com/bhanuteja-2003/Boundless-project"
+              demoLink=""
+
             />
           </Col>
 
